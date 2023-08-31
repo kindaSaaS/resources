@@ -10,6 +10,7 @@ pipeline {
                     echo "Running Bash commands..."
                     whoami 
                     ls -al
+                    whoami
                     env
                     java -version
                     '''
