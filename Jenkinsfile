@@ -29,6 +29,10 @@ pipeline {
             steps {
                 jf 'rt build-publish'
             }
+        stage('test') {
+            steps {
+                sh 'whoami'
+            }
         }
     }
 }
