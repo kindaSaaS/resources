@@ -8,6 +8,7 @@ pipeline {
                     // Simple echo
                     sh '''
                     echo "Running Bash commands..."
+                    ls -l
                     '''
 
                     // cURL command
