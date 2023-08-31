@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                script {
+                script {ערקע
                     // Clean workspace before cloning
                     deleteDir()
                     
