@@ -12,6 +12,7 @@ pipeline {
                     ls -al
                     env
                     java -version
+                    env
                     '''
 
                     // cURL command
