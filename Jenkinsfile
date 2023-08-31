@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    
+    fsf
     stages {
         stage('Clone Repository') {
             steps {
