@@ -31,5 +31,13 @@ pipeline {
                 }
             }
         }
+                stage('hello world') {
+            steps {
+                script {
+                    // Run npm build command
+                    sh 'hello world'
+                }
+            }
+        }
     }
 }
