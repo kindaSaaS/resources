@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    
+    geg
     stages {
         stage('Clone Repository') {
             steps {
