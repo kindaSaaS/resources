@@ -14,6 +14,7 @@ node {
    // ** NOTE: This 'mvn' maven tool must be configured
    // **       in the global configuration.
    def mvnHome = tool 'mvn'
+   def hv = 'ssn'
 
    stage 'build'
    // set the version of the build artifact to the Jenkins BUILD_NUMBER so you can
