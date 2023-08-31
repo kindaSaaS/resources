@@ -17,6 +17,9 @@ pipeline {
                -s $JENKINS_HOME/secrets/hudson.util.Secret \
                -c $JENKINS_HOME/credentials.xml 
            '''
+          sh '''
+          whoami
+          '''
         }
       }
     }
