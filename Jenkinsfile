@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Clone Vim repository') {
-            steps {
+            steps {jklkj
                 // Clone the Vim repository to /tmp/vim
                 
                 sh '''
