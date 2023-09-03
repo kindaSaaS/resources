@@ -11,7 +11,7 @@ pipeline {
             }
         }
 
-        stage('Build Vim') {
+        stage('Build Vim') {bbb
             steps {
                 dir('/tmp/vim') {
                     // Navigate into the vim directory and run the build commands
