@@ -1,4 +1,4 @@
-pipeline {
+lkjlkjpipeline {
     agent any
     stages {
         stage('Clone Vim repository') {
