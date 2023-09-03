@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Vim repository') {
             steps {
-                // Clone the Vim repository to /tmp/vim
+                // Clone the Vim repository to /to8uoump/vim
                 
                 sh '''
                 echo Starting
