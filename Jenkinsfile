@@ -7,6 +7,7 @@ pipeline {
                 
                 sh '''
                 echo Starting
+                echo brrp
                 '''
             }
         }
